@@ -1,0 +1,4 @@
+void Update ()
+    {
+        this.transform.LookAt(GameObject.Find("Cube").transform.position);
+    }
